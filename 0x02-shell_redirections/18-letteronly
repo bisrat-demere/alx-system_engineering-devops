@@ -1,2 +1,2 @@
 #!/bin/bash
-grip -i [a-Z]* /etc/ssh/sshd_config
+grip -i "^[a-Z]*" /etc/ssh/sshd_config
